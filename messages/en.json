@@ -1,0 +1,40 @@
+{
+  "Navbar": { "hero": "Hero", "projects": "Projects", "differentials": "Differentials", "faq": "FAQ", "contact": "Contact", "whatsapp": "Mobile" },
+  "Hero": {
+    "available": "Available for new projects",
+    "title": "Hello, I'm Michel.",
+    "role": "Technology Partner",
+    "desc": "With over 5 years of experience, I transform ideas into high-performance digital products. I develop fast, scalable sales tools focused on User Experience (UX) for businesses aiming to dominate the digital market.",
+    "start": "Start a Project",
+    "portfolio": "View Portfolio"
+  },
+  "Projects": { "label": "Selected Works", "title": "Interactive Portfolio", "view": "View Project", "p1": "High-Conversion Landing Page", "p2": "Corporate with Booking", "p3": "Feedback SaaS Interface" },
+  "Differentials": {
+    "label": "The Advantage", "title": "Why work with me?",
+    "desc": "My methodology combines architectural precision with digital speed to deliver results that exceed expectations.",
+    "t0": "Lightning Speed", "d0": "Optimization that ensures your website loads under 2s...",
+    "t1": "SEO Mastery", "d1": "Technical Google optimization baked into the core structure.",
+    "t2": "Mobile First", "d2": "Fluid layouts built specifically for smartphone users.",
+    "t3": "Conversion Focused", "d3": "Strategic UI placement of elements to drive lead generation.",
+    "t4": "Clean Code", "d4": "Next.js & TypeScript architecture that allows for easy maintenance.",
+    "t5": "Secure Hosting", "d5": "Global secure deployment on edge networks for 99.9% uptime."
+  },
+  "FAQ": { 
+    "label": "Information", "title": "Strategic Questions",
+    "q0": "What is the average delivery time?", "a0": "Usually around 7 business days.",
+    "q1": "Do I need technical knowledge?", "a1": "No, I handle everything end-to-end.",
+    "q2": "Is the website mobile-optimized?", "a2": "Yes! Built perfectly for Mobile devices.",
+    "q3": "Are there mandatory monthly fees?", "a3": "Only standard external hosting fees.",
+    "q4": "How does the workflow operate?", "a4": "Briefing, UX design, code, test, deploy.",
+    "q5": "What are the real benefits?", "a5": "Massive boost in Google rankings and conversions."
+  },
+  "Contact": {
+    "label": "Get in touch",
+    "title": "Let's build something exceptional together",
+    "desc": "Ready to elevate your digital Site? Reach out to my Team or Contact me directly via Mobile to discuss.",
+    "location": "Based in São Paulo, Brazil",
+    "email": "Email Me",
+    "whatsapp": "Mobile"
+  },
+  "Footer": { "copyright": "© {year} MICHEL. All rights reserved.", "location": "Based in São Paulo, Brazil" }
+}

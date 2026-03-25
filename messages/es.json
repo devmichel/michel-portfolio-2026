@@ -1,0 +1,40 @@
+{
+  "Navbar": { "hero": "Inicio", "projects": "Proyectos", "differentials": "Diferenciales", "faq": "Preguntas", "contact": "Contacto", "whatsapp": "Móvil" },
+  "Hero": {
+    "available": "Disponible para nuevos proyectos",
+    "title": "Hola, soy Michel.",
+    "role": "Socio Tecnológico",
+    "desc": "Con más de 5 años de experiencia, transformo ideas en productos digitales de alto rendimiento. Desarrollo herramientas rápidas enfocadas en UX.",
+    "start": "Iniciar Proyecto",
+    "portfolio": "Ver Portafolio"
+  },
+  "Projects": { "label": "Trabajos Seleccionados", "title": "Portafolio Interactivo", "view": "Ver Proyecto", "p1": "Landing Page de Alta Conversión", "p2": "Corporativo con Reservas", "p3": "Interfaz SaaS de Feedback" },
+  "Differentials": {
+    "label": "La Ventaja", "title": "¿Por qué trabajar conmigo?",
+    "desc": "Mi metodología combina precisión arquitectónica con velocidad digital para superar expectativas.",
+    "t0": "Velocidad Extrema", "d0": "Optimización que asegura que tu sitio cargue rápidamente.",
+    "t1": "Maestría en SEO", "d1": "Optimización técnica en Google integrada desde el núcleo.",
+    "t2": "Mobile First", "d2": "Diseños fluidos específicos para teléfonos inteligentes.",
+    "t3": "Enfoque en Conversión", "d3": "Ubicación estratégica de elementos en la UI para ventas.",
+    "t4": "Código Limpio", "d4": "Arquitectura moderna Next.js & TypeScript.",
+    "t5": "Hosting Seguro", "d5": "Despliegue global edge con un 99.9% de uptime."
+  },
+  "FAQ": { 
+    "label": "Información", "title": "Preguntas Estratégicas",
+    "q0": "¿Cuál es el tiempo de entrega?", "a0": "Generalmente en 7 días hábiles.",
+    "q1": "¿Necesito conocimientos técnicos?", "a1": "No, me encargo de todo el proceso.",
+    "q2": "¿Está optimizado para móviles?", "a2": "¡Sí! Fluido y rápido en todo Móvil.",
+    "q3": "¿Existen tarifas mensuales?", "a3": "Solo las tarifas de hosting con terceros.",
+    "q4": "¿Cómo es el flujo de trabajo?", "a4": "Briefing, UX, código y puesta en marcha.",
+    "q5": "¿Cuáles son los beneficios reales?", "a5": "Mayor ranking en Google y alza en ventas."
+  },
+  "Contact": {
+    "label": "Ponte en contacto",
+    "title": "Construyamos algo único juntos",
+    "desc": "¿Listo para elevar tu Sitio digital? Contacta a mi Equipo o escríbeme directamente a mi Móvil.",
+    "location": "Basado en São Paulo, Brasil",
+    "email": "Envíame un Email",
+    "whatsapp": "Móvil"
+  },
+  "Footer": { "copyright": "© {year} MICHEL. Todos los derechos reservados.", "location": "Basado en São Paulo, Brasil" }
+}

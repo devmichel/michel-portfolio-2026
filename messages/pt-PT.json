@@ -1,0 +1,40 @@
+{
+  "Navbar": { "hero": "Início", "projects": "Projetos", "differentials": "Diferenciais", "faq": "Dúvidas", "contact": "Contacto", "whatsapp": "Telemóvel" },
+  "Hero": {
+    "available": "Disponível para novos projetos",
+    "title": "Olá, sou o Michel.",
+    "role": "Parceiro Tecnológico",
+    "desc": "Com mais de 5 anos de experiência, transformo ideias em produtos digitais de alta performance. Desenvolvo ferramentas focadas na conversão (UX).",
+    "start": "Iniciar um Projeto",
+    "portfolio": "Ver Portfólio"
+  },
+  "Projects": { "label": "Trabalhos Selecionados", "title": "Portfólio Interativo", "view": "Ver Projeto", "p1": "Landing Page de Alta Conversão", "p2": "Institucional com Agendamento", "p3": "Interface SaaS de Feedback" },
+  "Differentials": {
+    "label": "A Vantagem", "title": "Por que trabalhar comigo?",
+    "desc": "Minha metodologia combina precisão técnica com velocidade digital extrema.",
+    "t0": "Velocidade Extrema", "d0": "Otimização garantindo carregamento em até 2 segundos.",
+    "t1": "Domínio de SEO", "d1": "Otimização técnica para o Google em todo o núcleo.",
+    "t2": "Mobile First", "d2": "Layouts fluidos construídos para ecrãs de Telemóvel.",
+    "t3": "Foco na Conversão", "d3": "Posicionamento UI estratégico para atrair os seus Contactos mensais.",
+    "t4": "Código Limpo", "d4": "Arquitetura limpa em Next.js e TypeScript.",
+    "t5": "Alojamento Seguro", "d5": "Implementação global de front-end com 99.9% uptime."
+  },
+  "FAQ": { 
+    "label": "Informações", "title": "Perguntas Estratégicas",
+    "q0": "Qual o prazo médio de entrega?", "a0": "Em média, 7 dias úteis após a aprovação.",
+    "q1": "Preciso ter conhecimento técnico?", "a1": "Não. Todo o sistema será entregue a funcionar perfeitamente.",
+    "q2": "O sítio é otimizado para dispositivos móveis?", "a2": "Sim. Totalmente responsivo para qualquer Telemóvel.",
+    "q3": "Existem taxas mensais obrigatórias?", "a3": "Sem mensalidade. Apenas os custos standard de alojamento.",
+    "q4": "Como funciona o fluxo de trabalho?", "a4": "Chamada tática, planeamento, código e aprovação da Equipa.",
+    "q5": "Quais os verdadeiros benefícios?", "a5": "Substancial melhoria nos motores de busca (Google)."
+  },
+  "Contact": {
+    "label": "Vamos conversar",
+    "title": "Construindo o excecional juntos",
+    "desc": "Pronto para elevar o seu Sítio digital? Envie-nos um Contacto direto para a nossa Equipa ou chame no Telemóvel para discutir o projeto.",
+    "location": "Sediado em São Paulo, Brasil",
+    "email": "E-mail Direto",
+    "whatsapp": "Telemóvel"
+  },
+  "Footer": { "copyright": "© {year} MICHEL. Todos os direitos reservados.", "location": "Sediado em São Paulo, Brasil" }
+}

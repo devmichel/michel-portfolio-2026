@@ -29,18 +29,18 @@ export default function Projects() {
   ];
 
   return (
-    <section className="py-32 bg-surface-container-low overflow-hidden" id="projects">
-      <div className="max-w-7xl mx-auto px-8">
+    <section className="py-20 bg-surface-container-low overflow-hidden" id="projects">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="flex flex-col md:flex-row justify-between items-end gap-8 mb-20"
+          className="flex flex-col md:flex-row justify-between lg:items-end gap-8 mb-10"
         >
           <div>
             <span className="font-label text-primary font-bold tracking-[0.3em] uppercase text-xs mb-4 block">{t('label')}</span>
-            <h2 className="font-headline text-4xl lg:text-5xl font-extrabold text-on-surface">{t('title')}</h2>
+            <h2 className="font-headline text-3xl lg:text-5xl font-extrabold text-on-surface">{t('title')}</h2>
           </div>
           <div className="flex gap-4">
             <button className="w-14 h-14 rounded-full neumorphic-raised flex items-center justify-center text-on-surface active:scale-90 transition-transform" aria-label="Previous Project">

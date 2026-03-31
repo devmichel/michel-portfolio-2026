@@ -3,38 +3,39 @@
   "Hero": {
     "available": "Disponível para novos projetos",
     "title": "Olá, sou o Michel.",
-    "role": "Parceiro Tecnológico",
-    "desc": "Com mais de 5 anos de experiência, transformo ideias em produtos digitais de alta performance. Desenvolvo ferramentas focadas na conversão (UX).",
+    "role": "Desenvolvedor de Sites Profissionais",
+    "desc": "Desenvolvo landing pages e sites institucionais modernos, rápidos e bem estruturados para fortalecer sua presença online e melhorar seu posicionamento nos buscadores.",
     "start": "Iniciar um Projeto",
     "portfolio": "Ver Portfólio"
   },
   "Projects": { "label": "Trabalhos Selecionados", "title": "Portfólio Interativo", "view": "Ver Projeto", "p1": "Landing Page de Alta Conversão", "p2": "Institucional com Agendamento", "p3": "Interface SaaS de Feedback" },
   "Differentials": {
-    "label": "A Vantagem", "title": "Por que trabalhar comigo?",
+    "label": "A Vantagem", "title": "Por que me escolher?",
     "desc": "Minha metodologia combina precisão técnica com velocidade digital extrema.",
-    "t0": "Velocidad Extrema", "d0": "Otimização garantindo carregamento em até 2 segundos.",
-    "t1": "Domínio de SEO", "d1": "Otimização técnica para o Google em todo o núcleo.",
-    "t2": "Mobile First", "d2": "Layouts fluidos construídos para dispositivos Celular.",
-    "t3": "Foco em Conversão", "d3": "Posicionamento UI estratégico para atrair contatos mensais.",
-    "t4": "Código Limpo", "d4": "Arquitetura limpa em Next.js e TypeScript.",
-    "t5": "Hospedagem Segura", "d5": "Implementação global de front-end com 99.9% uptime."
+    "t0": "Alta Performance", "d0": "Sites otimizados para carregamento rápido e boa experiência do usuário.",
+    "t1": "SEO Técnico", "d1": "Estrutura preparada para facilitar a indexação e entendimento pelos buscadores.",
+    "t2": "Mobile First", "d2": "Desenvolvimento pensado para funcionar perfeitamente em celulares, tablets e computadores.",
+    "t3": "Estrutura Profissional", "d3": "Organização de conteúdo e layout pensados para transmitir confiança e clareza.",
+    "t4": "Código de Qualidade", "d4": "Desenvolvimento com boas práticas modernas, garantindo estabilidade e escalabilidade.",
+    "t5": "Implementação Completa", "d5": "Entrega do site pronto para uso, com tudo configurado para publicação."
   },
   "FAQ": { 
     "label": "Informações", "title": "Perguntas Estratégicas",
-    "q0": "Qual o prazo médio de entrega?", "a0": "Em média, 7 dias úteis após a aprovação.",
-    "q1": "Preciso ter conhecimento técnico?", "a1": "Não. Todo o sistema será entregue funcionando de ponta a ponta.",
-    "q2": "O site é otimizado para celulares?", "a2": "Sim. Totalmente responsivo para qualquer Celular.",
-    "q3": "Existem taxas mensais obrigatórias?", "a3": "Sem mensalidade. Apenas o custo de infraestrutura (Vercel).",
-    "q4": "Como funciona o fluxo de trabalho?", "a4": "Call de negócio, design UX no Figma, código e entrega final.",
-    "q5": "Quais os benefícios reais?", "a5": "Taxas de conversão e aprovação maciçamente aprimoradas."
+    "q0": "Qual o prazo médio de entrega?", "a0": "O prazo médio é de 5 a 10 dias úteis após a aprovação do projeto, podendo variar conforme a complexidade.",
+    "q1": "Preciso ter conhecimento técnico?", "a1": "Não. Eu cuido de toda a parte técnica para que você receba o site pronto para uso.",
+    "q2": "O site é otimizado para celulares?", "a2": "Sim. O site será totalmente adaptado para celulares, tablets e computadores.",
+    "q3": "Existem taxas mensais obrigatórias?", "a3": "Não há mensalidade obrigatória pelo desenvolvimento. Custos como domínio e hospedagem podem existir, mas são opcionais e geralmente acessíveis.",
+    "q4": "Como funciona o processo de criação?", "a4": "Analiso o seu negócio e crio uma versão inicial do site como demonstração. Assim, você já consegue visualizar o resultado antes de contratar. Depois, faço os ajustes necessários e publico o site final.",
+    "q5": "Vou perder o endereço atual do meu site?", "a5": "Não. É possível manter o mesmo domínio (endereço do site) e apenas atualizar o visual e a estrutura. Caso você ainda não tenha um domínio, posso te orientar na criação.",
+    "q6": "Quais os benefícios reais?", "a6": "Um site profissional aumenta a credibilidade do seu negócio, melhora sua presença online e facilita que potenciais clientes encontrem e entrem em contato com você."
   },
   "Contact": {
     "label": "Vamos conversar",
-    "title": "Construindo o excepcional juntos",
-    "desc": "Pronto para elevar o seu Site digital? Mande um Contato direto para nossa Equipe ou nos chame no Celular para discutir sua solução.",
+    "title": "Transforme sua presença digital hoje",
+    "desc": "Quer um site profissional para o seu negócio? Fale comigo e eu te mostro a melhor solução.",
     "location": "Sediado em São Paulo, Brasil",
-    "email": "E-mail Direto",
-    "whatsapp": "Celular"
+    "email": "E-mail",
+    "whatsapp": "WhatsApp"
   },
   "Footer": { "copyright": "© {year} MICHEL. Todos os direitos reservados.", "location": "Sediado em São Paulo, Brasil" }
 }

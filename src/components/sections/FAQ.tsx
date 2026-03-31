@@ -9,14 +9,15 @@ export default function FAQ() {
     { q: t('q3'), a: t('a3') },
     { q: t('q4'), a: t('a4') },
     { q: t('q5'), a: t('a5') },
+    { q: t('q6'), a: t('a6') },
   ];
 
   return (
-    <section className="py-32 bg-surface-container-low" id="faq">
-      <div className="max-w-4xl mx-auto px-8">
-        <div className="text-center mb-16">
+    <section className="py-20 bg-surface-container-low" id="faq">
+      <div className="max-w-4xl mx-auto px-4 lg:px-8">
+        <div className="lg:text-center mb-16">
           <span className="font-label text-primary font-bold tracking-[0.3em] uppercase text-xs mb-4 block">{t('label')}</span>
-          <h2 className="font-headline text-4xl font-extrabold mb-4">{t('title')}</h2>
+          <h2 className="font-headline text-3xl font-extrabold mb-4">{t('title')}</h2>
         </div>
         <div className="space-y-6">
           {faqs.map((faq, index) => (

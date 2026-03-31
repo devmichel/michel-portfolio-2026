@@ -1,40 +1,61 @@
 {
-  "Navbar": { "hero": "Inicio", "projects": "Proyectos", "differentials": "Diferenciales", "faq": "Preguntas", "contact": "Contacto", "whatsapp": "Móvil" },
+  "Navbar": { 
+    "hero": "Inicio", 
+    "projects": "Proyectos", 
+    "differentials": "Diferenciales", 
+    "faq": "Preguntas", 
+    "contact": "Contacto", 
+    "whatsapp": "WhatsApp" 
+  },
   "Hero": {
     "available": "Disponible para nuevos proyectos",
     "title": "Hola, soy Michel.",
-    "role": "Socio Tecnológico",
-    "desc": "Con más de 5 años de experiencia, transformo ideas en productos digitales de alto rendimiento. Desarrollo herramientas rápidas enfocadas en UX.",
+    "role": "Desarrollador de Sitios Web Profesionales",
+    "desc": "Desarrollo landing pages y sitios web modernos, rápidos y bien estructurados para fortalecer tu presencia online y mejorar tu posicionamiento en buscadores.",
     "start": "Iniciar Proyecto",
     "portfolio": "Ver Portafolio"
   },
-  "Projects": { "label": "Trabajos Seleccionados", "title": "Portafolio Interactivo", "view": "Ver Proyecto", "p1": "Landing Page de Alta Conversión", "p2": "Corporativo con Reservas", "p3": "Interfaz SaaS de Feedback" },
+  "Projects": { 
+    "label": "Proyectos Seleccionados", 
+    "title": "Portafolio Interactivo", 
+    "view": "Ver Proyecto", 
+    "p1": "Landing Page de Alta Conversión", 
+    "p2": "Sitio Corporativo con Reservas", 
+    "p3": "Interfaz SaaS de Feedback" 
+  },
   "Differentials": {
-    "label": "La Ventaja", "title": "¿Por qué trabajar conmigo?",
-    "desc": "Mi metodología combina precisión arquitectónica con velocidad digital para superar expectativas.",
-    "t0": "Velocidad Extrema", "d0": "Optimización que asegura que tu sitio cargue rápidamente.",
-    "t1": "Maestría en SEO", "d1": "Optimización técnica en Google integrada desde el núcleo.",
-    "t2": "Mobile First", "d2": "Diseños fluidos específicos para teléfonos inteligentes.",
-    "t3": "Enfoque en Conversión", "d3": "Ubicación estratégica de elementos en la UI para ventas.",
-    "t4": "Código Limpio", "d4": "Arquitectura moderna Next.js & TypeScript.",
-    "t5": "Hosting Seguro", "d5": "Despliegue global edge con un 99.9% de uptime."
+    "label": "Diferencial", 
+    "title": "¿Por qué elegirme?",
+    "desc": "Una metodología que combina calidad técnica con rapidez en la entrega.",
+    "t0": "Alto Rendimiento", "d0": "Sitios optimizados para carga rápida y buena experiencia del usuario.",
+    "t1": "SEO Técnico", "d1": "Estructura preparada para facilitar la indexación en buscadores.",
+    "t2": "Mobile First", "d2": "Desarrollo pensado para funcionar perfectamente en móviles, tablets y ordenadores.",
+    "t3": "Estructura Profesional", "d3": "Organización de contenido clara para transmitir confianza.",
+    "t4": "Código de Calidad", "d4": "Buenas prácticas modernas que garantizan estabilidad y escalabilidad.",
+    "t5": "Implementación Completa", "d5": "Entrega del sitio listo para publicar y usar."
   },
   "FAQ": { 
-    "label": "Información", "title": "Preguntas Estratégicas",
-    "q0": "¿Cuál es el tiempo de entrega?", "a0": "Generalmente en 7 días hábiles.",
-    "q1": "¿Necesito conocimientos técnicos?", "a1": "No, me encargo de todo el proceso.",
-    "q2": "¿Está optimizado para móviles?", "a2": "¡Sí! Fluido y rápido en todo Móvil.",
-    "q3": "¿Existen tarifas mensuales?", "a3": "Solo las tarifas de hosting con terceros.",
-    "q4": "¿Cómo es el flujo de trabajo?", "a4": "Briefing, UX, código y puesta en marcha.",
-    "q5": "¿Cuáles son los beneficios reales?", "a5": "Mayor ranking en Google y alza en ventas."
+    "label": "Información", 
+    "title": "Preguntas Frecuentes",
+
+    "q0": "¿Cuál es el plazo de entrega?", "a0": "El plazo medio es de 5 a 10 días hábiles tras la aprobación, dependiendo de la complejidad.",
+    "q1": "¿Necesito conocimientos técnicos?", "a1": "No. Me encargo de toda la parte técnica para que recibas el sitio listo para usar.",
+    "q2": "¿El sitio está optimizado para móviles?", "a2": "Sí. El sitio es totalmente adaptable a móviles, tablets y ordenadores.",
+    "q3": "¿Existen costos mensuales obligatorios?", "a3": "No hay cuotas por el desarrollo. Costos como dominio y hosting pueden existir, pero son opcionales y accesibles.",
+    "q4": "¿Cómo funciona el proceso de creación?", "a4": "Analizo tu negocio y desarrollo una versión inicial del sitio como demostración. Así puedes ver el resultado antes de decidir. Luego realizo los ajustes necesarios y publico la versión final.",
+    "q5": "¿Perderé la dirección actual de mi sitio web?", "a5": "No. Puedes mantener tu dominio actual y solo actualizar el diseño y la estructura. Si no tienes uno, puedo ayudarte a crearlo.",
+    "q6": "¿Cuáles son los beneficios reales?", "a6": "Un sitio profesional mejora la credibilidad de tu negocio, fortalece tu presencia online y facilita que potenciales clientes te encuentren y te contacten."
   },
   "Contact": {
-    "label": "Ponte en contacto",
-    "title": "Construyamos algo único juntos",
-    "desc": "¿Listo para elevar tu Sitio digital? Contacta a mi Equipo o escríbeme directamente a mi Móvil.",
-    "location": "Basado en São Paulo, Brasil",
-    "email": "Envíame un Email",
-    "whatsapp": "Móvil"
+    "label": "Hablemos",
+    "title": "Transforma tu presencia digital hoy",
+    "desc": "¿Quieres un sitio web profesional? Escríbeme y te muestro una propuesta antes de contratar.",
+    "location": "Atención remota",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
   },
-  "Footer": { "copyright": "© {year} MICHEL. Todos los derechos reservados.", "location": "Basado en São Paulo, Brasil" }
+  "Footer": { 
+    "copyright": "© {year} MICHEL. Todos los derechos reservados.", 
+    "location": "Atención remota" 
+  }
 }

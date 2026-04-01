@@ -3,9 +3,19 @@
 import { motion } from "framer-motion";
 import { Zap, Search, Smartphone, MousePointerClick, Code2, ShieldCheck } from "lucide-react";
 import { useTranslations } from 'next-intl';
+import { useState, useEffect } from "react";
 
 export default function Differentials() {
   const t = useTranslations('Differentials');
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mql = window.matchMedia("(max-width: 767px)");
+    const onChange = (e: MediaQueryListEvent | MediaQueryList) => setIsMobile(e.matches);
+    onChange(mql);
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
 
   const diffs = [
     { icon: Zap, title: t('t0'), desc: t('d0') },
@@ -31,15 +41,16 @@ export default function Differentials() {
           <p className="text-on-surface-variant text-lg">{t('desc')}</p>
         </motion.div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Container de scroll horizontal no mobile */}
+        <div className="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-x-auto md:overflow-x-visible pb-10 md:pb-0 scrollbar-hide snap-x snap-mandatory">
           {diffs.map((item, index) => (
             <motion.div 
               key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={isMobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
+              whileInView={isMobile ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="neumorphic-raised p-6 lg:p-10 rounded-[2rem] hover:shadow-2xl transition-shadow group"
+              transition={{ duration: 0.5, delay: isMobile ? 0 : index * 0.1 }}
+              className="neumorphic-raised p-6 lg:p-10 rounded-[2rem] hover:shadow-2xl transition-shadow group shrink-0 w-[70vw] md:w-auto snap-center"
             >
                <div className="w-14 h-14 neumorphic-inset rounded-2xl flex items-center justify-center text-primary mb-8 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                   <item.icon size={28} />
@@ -53,3 +64,5 @@ export default function Differentials() {
     </section>
   );
 }
+
+

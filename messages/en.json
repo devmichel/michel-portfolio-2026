@@ -55,7 +55,7 @@
     "whatsapp": "WhatsApp"
   },
   "Footer": { 
-    "copyright": "© {year} MICHEL. All rights reserved.", 
+    "copyright": "© {year} DEVMICHEL. All rights reserved.", 
     "location": "Remote service worldwide" 
   }
 }

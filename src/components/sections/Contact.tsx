@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary/5 rounded-full blur-[100px] -ml-48 pointer-events-none"></div>
       
       <div className="max-w-7xl mx-auto px-4 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-20 items-center">
           <div>
             <span className="font-label text-primary font-bold tracking-[0.3em] uppercase text-xs mb-4 block">{t('label')}</span>
             <h2 className="font-headline text-5xl font-extrabold mb-8 text-gradient leading-tight">{t('title')}</h2>

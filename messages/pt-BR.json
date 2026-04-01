@@ -37,5 +37,5 @@
     "email": "E-mail",
     "whatsapp": "WhatsApp"
   },
-  "Footer": { "copyright": "© {year} MICHEL. Todos os direitos reservados.", "location": "Sediado em São Paulo, Brasil" }
+  "Footer": { "copyright": "© {year} DEVMICHEL. Todos os direitos reservados.", "location": "Sediado em São Paulo, Brasil" }
 }

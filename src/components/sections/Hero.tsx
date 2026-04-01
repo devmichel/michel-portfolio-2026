@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="absolute -inset-4 neumorphic-raised rounded-[2rem] opacity-50"></div>
           <div className="relative overflow-hidden rounded-[1.5rem] neumorphic-raised aspect-square lg:aspect-[4/5]">
             <Image 
-              src="/hero.jpg" 
+              src="/banner-michel.png" 
               alt="Michel professional workspace" 
               fill
               priority
